@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Dynamic Pipeline Data & Cache
+data/
+*.tmp
+
+# Environment Variables with secrets (user should use .env.example)
+.env
+
+# Virtual Environment
+venv/
+env/
+ENV/

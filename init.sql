@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS transactions (
+    id INTEGER PRIMARY KEY,
+    user_id VARCHAR(255) NOT NULL,
+    amount NUMERIC(10,2) NOT NULL,
+    created_at TIMESTAMP NOT NULL
+);
